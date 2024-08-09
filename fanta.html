@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>BUM BUM</title>
+    <link rel="stylesheet" href="sy.css">
+    <script>
+        function submitInfo(event){
+            event.preventDefault();
+     document.getElementById("imi").innerHTML="Welcome back to Imagine";
+        }
+   </script>
+</head>
+<body bgcolor="gold">
+    <div id="nav">
+        <a href="index.html">HOME</a> |
+        <a href="vee.html">About</a>  |
+        <!-- <a href="sprite.html">Contact</a> | -->
+        <a href="coke.html" >Follow</a>
+        <div id="navs">
+             <a href="sprite.html" style="float: left ;color: white;">Sign in | </a>
+        <a href="fanta.html" style="float: left;color: white;"> Log in</a>
+        <img src="Untitled design.png"  style="width: 30px; height: 30px; float: right;">
+        </div>
+       
+
+    </div> 
+    <h2 style="text-align: center;" >
+        Log in
+       </h2>
+        <form onsubmit="submitInfo(event)" style="text-align: center;">
+    <label>Username:</label>
+    <input type="text" id="lirx" name="age" class="calc" placeholder="Enter Username" required><br>
+    <label>Password:</label>
+     <input type="text" id="hji" name="age" class="calc" placeholder="Enter Password" required><br><br>
+        <input type="SUBMIT" id="gil" value="SUBMIT" >
+         <div id="imi" style="font-size: xx-large; font-weight: bold; color: black;"></div>
+        </form>
+        
+</body>
+</html>
